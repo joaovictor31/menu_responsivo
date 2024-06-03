@@ -1,0 +1,49 @@
+/*Reset do Navegador*/
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 198px;
+    height: 81px;
+}
+
+.navbar{ 
+    background-color:#25292C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100px;
+    flex-direction: row;
+}
+
+.navbar{
+    color: #FFEBCD;
+}
+
+.nav-links-desktop{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links-desktop li{
+    padding: 0 48px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.nav-links-desktop a{
+    color: #FFEBCD;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+
