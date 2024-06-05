@@ -6,9 +6,18 @@ body, html{
     box-sizing: border-box;
 }
 
-.logo{
+.logo-img{
     width: 198px;
-    height: 81px;
+    height: 70px;
+    padding: 10px;
+}
+
+.botao{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+    padding: 10px 25px;
 }
 
 .navbar{ 
@@ -35,8 +44,8 @@ body, html{
 .nav-links-desktop li{
     padding: 0 48px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    font-style: normal
+    font-weight: 700;
+    font-style: bold;
 }
 
 .nav-links-desktop a{
