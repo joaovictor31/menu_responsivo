@@ -13,11 +13,16 @@ body, html{
 }
 
 .botao{
-    font-family: "Libre Baskerville", serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
     text-align: center;
+    border: none;
+    font-size: 20px;
     padding: 10px 25px;
+    background-image: linear-gradient(to right, #BF0404,#B10202);
+    color: white;
+    border-radius: 2px;
 }
 
 .navbar{ 
@@ -46,6 +51,7 @@ body, html{
     font-family: "Libre Baskerville", serif;
     font-weight: 700;
     font-style: bold;
+    
 }
 
 .nav-links-desktop a{
