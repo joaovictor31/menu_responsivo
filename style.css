@@ -9,10 +9,11 @@ body, html{
 .logo-img{
     width: 198px;
     height: 70px;
-    padding: 10px;
+    
 }
 
 .botao{
+   
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -28,7 +29,7 @@ body, html{
 .navbar{ 
     background-color:#25292C;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
     height: 100px;
@@ -54,11 +55,75 @@ body, html{
     
 }
 
-.nav-links-desktop a{
+.nav-links-desktop a, .nav-links-mobile a{
     color: #FFEBCD;
     text-decoration: none;
     transition: 0.3s;
 
 }
 
+.nav-links-desktop a:hover{
+    text-decoration: underline;
+}
 
+.mobile-menu{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.nav-links-mobile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.2rem;
+    width: 80%;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.nav-links-mobile li {
+    border-bottom: 1px solid #787272;
+    padding-bottom: 1.2rem;
+}
+
+.hamburguer,.close{
+    font-size: 24px;
+    background: none;
+    color: #FFF;
+    cursor: pointer;
+    display: none;
+}
+
+.close {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: block;
+    align-self: end;
+}
+
+@media(max-width: 768px){
+
+    html{
+        font-size: 12px;
+    }
+    .nav-links-desktop{
+        display: none;
+    }
+
+    .botao-area{
+        display: none;
+    }
+
+    .hamburguer{
+        display: block;
+    }
+}
